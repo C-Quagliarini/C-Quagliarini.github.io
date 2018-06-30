@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Claudia Quagliarini</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800,900" rel="stylesheet">
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+            line-height: 16px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            margin-top: 3px;
+            font-size: 22px;
+            border-left: #2E7F75 4px solid;
+            padding-left: 10px;
+        }
+
+        p {
+            line-height: 1.3;
+        }
+
+        #container {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .margin-bottom-30 {
+            margin-bottom: 30px;
+        }
+
+        .margin-top-90 {
+            margin-top: 90px;
+        }
+
+        .padding-left-30 {
+            padding-left: 30px;
+        }
+
+        #navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: white;
+        }
+
+        #navigation ul {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #navigation ul li {
+            display: inline-block;
+            margin: 0 30px;
+        }
+
+        #navigation ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: 0.2s;
+        }
+
+        #navigation ul li a:visited,
+        /*#navigation ul li a:active,*/
+
+        #navigation ul li a:focus {
+            color: black;
+        }
+
+        #navigation ul li a:hover {
+            border-bottom: 2px solid;
+            color: #2E7F75;
+        }
+
+        #navigation ul li a.active {
+            border-bottom: 2px solid;
+            color: #2E7F75;
+        }
+
+        #scroll {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 30px;
+            width: 30px;
+            background-color: white;
+            border-radius: 100%;
+            cursor: pointer;
+            animation: basso 2s infinite;
+        }
+
+        @keyframes basso {
+            from {
+                transform: translate(-50%, -50%);
+                opacity: 1;
+            }
+            to {
+                transform: translate(-50%, -20%);
+                opacity: 0;
+            }
+        }
+
+        #content .colonna33 {
+            max-width: 33%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #content .colonna33 img {
+            height: 100%;
+            width: 100%;
+        }
+
+        #content .colonna66 {
+            max-width: 66%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #sotto {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navigation" class="block">
+        <ul>
+            <li>
+                <a href="/">HOME</a>
+            </li>
+            <li>
+                <a href="/progetti.html">PROGETTI</a>
+            </li>
+            <li>
+                <a href="/spinner.html">SPINNER</a>
+            </li>
+            <li>
+                <a href="/cosplay.html">COSPLAY</a>
+            </li>
+            <li>
+                <a href="/about.html" class="active">ABOUT</a>
+            </li>
+        </ul>
+    </div>
+    <div id="container">
+        <div id="content" class="block margin-bottom-30 margin-top-90">
+            <div class="colonna33">
+                <img src="public/matura.jpg" alt="11 luglio 2016, maturità"></img>
+            </div>
+            <div class="colonna66">
+                <div class="padding-left-30">
+                    <h1>Formazione</h1>
+                    <p>
+                        Ho frequentato il Liceo Classico Bartolomeo Zucchi di Monza, dal 2011 al 2016, che ho vissuto in una costante relazione di
+                        <i>odi et amo</i> (a voi scommettere su quale delle due emozioni ha prevalso alla fine). I cinque anni
+                        del liceo mi hanno lasciato la passione per la cultura classica, per lo studio delle lingue in ogni
+                        loro parte -dalla grammatica all'utilizzo dei vocaboli- e in generale per i meccanismi di trasmissione
+                        e ricezione di un messaggio.
+                    </p>
+                    <p>
+                        Per questo motivo nella mia scelta universitaria -Design della Comunicazione presso il Politecnico di Milano- mi sono orientata
+                        verso qualcosa che potesse congiungere il fascino per la comunicazione e il mio amore per la grafica,
+                        che ho iniziato a coltivare proprio negli anni del liceo, lavorando per 4 anni all'interno della
+                        redazione del giornale di Istituto come redattrice e grafica.
+                    </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div id="sotto">
+                <h1>Percorso personale</h1>
+                <p>
+                    La riflessione sulla divulgazione di contenuti in relazione al medium a cui tali contenuti sono affidati è una costante che
+                    accompagna il mio corso di studi e la mia vita, che non perdo mai occasione di approfondire. In particolare
+                    è nato in me l'interesse per la creazione di storie e narrazioni che possano in qualche modo colpire
+                    il pubblico e lasciargli qualcosa da portarsi dietro nel corso della vita. Analizzare queste narrazioni
+                    e imparare come si strutturano e come ogni medium possa valorizzarle in maniera diversa è qualcosa a
+                    cui sento di volermi dedicare con impegno e convinzione.
+                </p>
+                <p>
+                    L'interesse per le lingue e per i viaggi è invece qualcosa che mi accompagna da sempre: ho partecipato ad esperienze di vacanza
+                    studio nel Regno Unito nel 2011, nel 2012 e nel 2013, e in Francia nel 2014, affiancate da gemellaggi
+                    e scambi culturali con Belgio e Germania. Possiedo una conoscenza dell'inglese molto buona (B2, grade
+                    B, 177/190) che mi impegno costantemente a migliorare, leggendo e guardando artefatti in lingua e studiando
+                    per conseguire il C1. Non mi dispiacerebbe dedicare più tempo e metodo allo studio delle lingue, in particolare
+                    francese (che conosco solo in maniera basilare), tedesco e giapponese.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {           
+
+        });
+    </script>
+</body>
+
+</html>
